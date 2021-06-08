@@ -51,15 +51,15 @@ int max(int a, int b)
 /* Returns the physical address from TLB or -1 if not present. */
 int search_tlb(unsigned char logical_page) {
     /* TODO */
-    int i;
-    for (i = max((tlbindex - TLB_SIZE), 0); i < tlbindex; i++) {
+   
+    for (int i = 0; i < TLB_SIZE; i++) {
       
         struct tlbentry *entry = &tlb[i % TLB_SIZE];
         if (entry->logical == logical_page) {
             return entry->physical;
         }
     }
-     
+
     return -1;
 }
 
@@ -124,7 +124,14 @@ int main(int argc, const char *argv[])
       // Page fault
       if (physical_page == -1) {
           /* TODO */
-          tlb_hits++;
+            page_faults++;
+                 
+            physical_page = free_page;
+            free_page++;
+                 
+            // Copy page from backing file into physical memory
+            memcpy(main_memory + physical_page * PAGE_SIZE, backing + logical_page * PAGE_SIZE, PAGE_SIZE);     
+            pagetable[logical_page] = physical_page;
       }
 
       add_to_tlb(logical_page, physical_page);
