@@ -125,11 +125,9 @@ int main(int argc, const char *argv[])
       if (physical_page == -1) {
           /* TODO */
             page_faults++;
-                 
             physical_page = free_page;
             free_page++;
-                 
-            // Copy page from backing file into physical memory
+            // Copy page from backing_store file to physical memory
             memcpy(main_memory + physical_page * PAGE_SIZE, backing + logical_page * PAGE_SIZE, PAGE_SIZE);     
             pagetable[logical_page] = physical_page;
       }
