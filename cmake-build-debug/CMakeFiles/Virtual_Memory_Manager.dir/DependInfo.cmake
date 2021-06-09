@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/sarieh/Documents/gitkraken/Virtual-Memory-Manager/project3/part2.c" "/home/sarieh/Documents/gitkraken/Virtual-Memory-Manager/cmake-build-debug/CMakeFiles/Virtual_Memory_Manager.dir/project3/part2.c.o"
-  "/home/sarieh/Documents/gitkraken/Virtual-Memory-Manager/project3/virtmem.c" "/home/sarieh/Documents/gitkraken/Virtual-Memory-Manager/cmake-build-debug/CMakeFiles/Virtual_Memory_Manager.dir/project3/virtmem.c.o"
+  "/home/sarieh/Documents/gitkraken/Virtual-Memory-Manager/part1.c" "/home/sarieh/Documents/gitkraken/Virtual-Memory-Manager/cmake-build-debug/CMakeFiles/Virtual_Memory_Manager.dir/part1.c.o"
+  "/home/sarieh/Documents/gitkraken/Virtual-Memory-Manager/part2.c" "/home/sarieh/Documents/gitkraken/Virtual-Memory-Manager/cmake-build-debug/CMakeFiles/Virtual_Memory_Manager.dir/part2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

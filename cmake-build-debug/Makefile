@@ -142,59 +142,59 @@ Virtual_Memory_Manager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Virtual_Memory_Manager.dir/build.make CMakeFiles/Virtual_Memory_Manager.dir/build
 .PHONY : Virtual_Memory_Manager/fast
 
-project3/part2.o: project3/part2.c.o
+part1.o: part1.c.o
 
-.PHONY : project3/part2.o
-
-# target to build an object file
-project3/part2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Virtual_Memory_Manager.dir/build.make CMakeFiles/Virtual_Memory_Manager.dir/project3/part2.c.o
-.PHONY : project3/part2.c.o
-
-project3/part2.i: project3/part2.c.i
-
-.PHONY : project3/part2.i
-
-# target to preprocess a source file
-project3/part2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Virtual_Memory_Manager.dir/build.make CMakeFiles/Virtual_Memory_Manager.dir/project3/part2.c.i
-.PHONY : project3/part2.c.i
-
-project3/part2.s: project3/part2.c.s
-
-.PHONY : project3/part2.s
-
-# target to generate assembly for a file
-project3/part2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Virtual_Memory_Manager.dir/build.make CMakeFiles/Virtual_Memory_Manager.dir/project3/part2.c.s
-.PHONY : project3/part2.c.s
-
-project3/virtmem.o: project3/virtmem.c.o
-
-.PHONY : project3/virtmem.o
+.PHONY : part1.o
 
 # target to build an object file
-project3/virtmem.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Virtual_Memory_Manager.dir/build.make CMakeFiles/Virtual_Memory_Manager.dir/project3/virtmem.c.o
-.PHONY : project3/virtmem.c.o
+part1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Virtual_Memory_Manager.dir/build.make CMakeFiles/Virtual_Memory_Manager.dir/part1.c.o
+.PHONY : part1.c.o
 
-project3/virtmem.i: project3/virtmem.c.i
+part1.i: part1.c.i
 
-.PHONY : project3/virtmem.i
+.PHONY : part1.i
 
 # target to preprocess a source file
-project3/virtmem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Virtual_Memory_Manager.dir/build.make CMakeFiles/Virtual_Memory_Manager.dir/project3/virtmem.c.i
-.PHONY : project3/virtmem.c.i
+part1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Virtual_Memory_Manager.dir/build.make CMakeFiles/Virtual_Memory_Manager.dir/part1.c.i
+.PHONY : part1.c.i
 
-project3/virtmem.s: project3/virtmem.c.s
+part1.s: part1.c.s
 
-.PHONY : project3/virtmem.s
+.PHONY : part1.s
 
 # target to generate assembly for a file
-project3/virtmem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Virtual_Memory_Manager.dir/build.make CMakeFiles/Virtual_Memory_Manager.dir/project3/virtmem.c.s
-.PHONY : project3/virtmem.c.s
+part1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Virtual_Memory_Manager.dir/build.make CMakeFiles/Virtual_Memory_Manager.dir/part1.c.s
+.PHONY : part1.c.s
+
+part2.o: part2.c.o
+
+.PHONY : part2.o
+
+# target to build an object file
+part2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Virtual_Memory_Manager.dir/build.make CMakeFiles/Virtual_Memory_Manager.dir/part2.c.o
+.PHONY : part2.c.o
+
+part2.i: part2.c.i
+
+.PHONY : part2.i
+
+# target to preprocess a source file
+part2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Virtual_Memory_Manager.dir/build.make CMakeFiles/Virtual_Memory_Manager.dir/part2.c.i
+.PHONY : part2.c.i
+
+part2.s: part2.c.s
+
+.PHONY : part2.s
+
+# target to generate assembly for a file
+part2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Virtual_Memory_Manager.dir/build.make CMakeFiles/Virtual_Memory_Manager.dir/part2.c.s
+.PHONY : part2.c.s
 
 # Help Target
 help:
@@ -205,12 +205,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Virtual_Memory_Manager"
-	@echo "... project3/part2.o"
-	@echo "... project3/part2.i"
-	@echo "... project3/part2.s"
-	@echo "... project3/virtmem.o"
-	@echo "... project3/virtmem.i"
-	@echo "... project3/virtmem.s"
+	@echo "... part1.o"
+	@echo "... part1.i"
+	@echo "... part1.s"
+	@echo "... part2.o"
+	@echo "... part2.i"
+	@echo "... part2.s"
 .PHONY : help
 
 

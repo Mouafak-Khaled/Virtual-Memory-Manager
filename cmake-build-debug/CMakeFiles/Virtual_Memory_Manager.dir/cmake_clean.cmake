@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Virtual_Memory_Manager.dir/project3/part2.c.o"
-  "CMakeFiles/Virtual_Memory_Manager.dir/project3/virtmem.c.o"
+  "CMakeFiles/Virtual_Memory_Manager.dir/part1.c.o"
+  "CMakeFiles/Virtual_Memory_Manager.dir/part2.c.o"
   "Virtual_Memory_Manager"
   "Virtual_Memory_Manager.pdb"
 )

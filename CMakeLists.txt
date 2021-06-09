@@ -4,4 +4,4 @@ project(Virtual_Memory_Manager C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Virtual_Memory_Manager
-        project3/virtmem.c project3/part2.c)
+        part1.c part2.c)

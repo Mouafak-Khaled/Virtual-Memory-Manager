@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sarieh/Documents/gitkraken/Virtual-Memory-Manager/part1.c
+stdio.h
+-
+sys/mman.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/sarieh/Documents/gitkraken/Virtual-Memory-Manager/part2.c
+stdio.h
+-
+sys/mman.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+stdlib.h
+-
+string.h
+-
+
