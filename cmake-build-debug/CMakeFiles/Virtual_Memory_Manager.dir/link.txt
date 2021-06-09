@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Virtual_Memory_Manager.dir/project3/virtmem.c.o CMakeFiles/Virtual_Memory_Manager.dir/project3/part2.c.o -o Virtual_Memory_Manager 

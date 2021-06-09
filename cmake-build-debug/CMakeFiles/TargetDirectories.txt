@@ -1,0 +1,3 @@
+/home/sarieh/Documents/gitkraken/Virtual-Memory-Manager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sarieh/Documents/gitkraken/Virtual-Memory-Manager/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sarieh/Documents/gitkraken/Virtual-Memory-Manager/cmake-build-debug/CMakeFiles/Virtual_Memory_Manager.dir

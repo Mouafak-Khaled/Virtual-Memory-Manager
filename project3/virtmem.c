@@ -51,8 +51,8 @@ int max(int a, int b)
 /* Returns the physical address from TLB or -1 if not present. */
 int search_tlb(unsigned char logical_page) {
     /* TODO */
-   
-    for (int i = 0; i < TLB_SIZE; i++) {
+
+    for (int i = max(tlbindex - TLB_SIZE, 0); i < tlbindex; i++) {
       
         struct tlbentry *entry = &tlb[i % TLB_SIZE];
         if (entry->logical == logical_page) {
