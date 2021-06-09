@@ -1,8 +1,16 @@
 Partners: 
 	- Sarieh Srdar - 66940 
-	- Mouafak Alsayed Hasan	- 66939
+	- Mouafak Alsaid Hasan	- 66939
 
 -----------------------------PART 1-----------------------------
+In this part, I have given a base code for virtual memory manager. We had an assumption that virtual and physical memory are equal. We defined the page mask to be PAGES - 1 which is 1023.
+I implemented the search method for the TLB to check if a certain logical address exist in thr TLB. We add values to the TLB based on FIFO replacement algorithm. 
+We used the right shoft and bit-and operations to calculate the offset and logical page number:
+
+                               int offset = logical_address & OFFSET_MASK;
+                               int logical_page = (logical_address >> OFFSET_BITS) & PAGE_MASK;
+			       
+then, we check if the physical address corresponds to the given logical address is in the TLB. if not, we check the page table. if a physical address is not in the page table, we copy it to the page table from the backing store, and increment page_fault by 1.
 
 
 -----------------------------PART 2-----------------------------
